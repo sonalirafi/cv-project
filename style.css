@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(236, 184, 184);
+    font-family: "Trirong", serif;
+}
+
+.container {
+    max-width: 900px;
+    height: 130px;
+    margin: 0 auto;
+    background-color: rgb(177, 226, 188);
+    padding: 20px;
+}
+
+.profile_image {
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header_bio {
+    padding: 10px;
+    float: left;
+    color:blueviolet;
+}
+h1 h2 h3 h5 h6 {
+    color:#11999e;    
+}
+.header_contact {
+    float: right;
+    padding: 20px;
+}
+.header_contact a {
+    text-decoration: none;
+    color:blueviolet;
+    font-weight: bold;
+
+}
+.header_contact a:hover {
+    text-decoration: underline;
+    color: tomato;
+
+}
+
+.div_clear {
+    clear: both;
+
+}
+hr {
+    border:3px solid gray;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+</*personal section start-----*/>
+.personal_section {
+    margin-bottom: 20px;
+    background-color:rgb(172, 172, 194);
+}
+.div_left {
+    float: left;
+    width: 30%;
+    color:blueviolet;
+    
+    
+}
+.div_right{
+    float: left;
+    width: 70%;
+
+}
+.div_right h3 {
+    color: blueviolet;
+
+}
+.common_hr {
+    border:1px solid gray;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+</*personal section end-----*/>
+.edu1 {
+    float: left;
+    width: 45%;
+}
+.edu h4 {
+    color: blueviolet;
+}
+
+.edu2 {
+    float: right;
+    width: 45%;
+    color: blueviolet;
+}
+                            
+</*-----ducation section end*/>
+
+</*reference section end-----*/>
+column1 {
+    float: left;
+    width: 45%;
+
+}
+.column2 {
+    color: blueviolet;
+    float: left;
+
+}
+
+.column3 {
+    float: left;
+    width: 45%;
+    color: blueviolet;
+   
+}
+                            
+</*-----reference section end*/>
+
+
+</*-----footer section start*/>
+
+.fotter{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+  
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+..fotter{
+    color: rgb(218, 21, 21);
+    text-decoration: none;
+  
+    background-color: black;
+
+    width: 100%;
+    text-align: center;
+}
+.fotter{
+    color: rgb(65, 20, 20);
+    text-decoration: none;
+   
+    background-color: black;
+    float: left;    width:100%;
+    text-align: center;
+    
+}
+</*-----footer section end*/>
+
